@@ -1,3 +1,4 @@
+
 from tempfile import template
 from fastapi import APIRouter, Form, Request
 from fastapi.templating import Jinja2Templates
@@ -22,7 +23,10 @@ def dashboard(request:Request):
     if user : 
         result = db.table('health_tracker').select ('*') .eq('user_id',user.id).execute()
         
+        
         return templates.TemplateResponse("dashboard.html",{'request':request,'details':result.data})
     return RedirectResponse('/login')
+
+
     
- 
+    
