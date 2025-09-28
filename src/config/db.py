@@ -5,4 +5,4 @@
 from supabase import create_client
 
 
-db=create_client("https://lkqqjfdqegoexzshyvyn.supabase.co","eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxrcXFqZmRxZWdvZXh6c2h5dnluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc1OTUxNjMsImV4cCI6MjA3MzE3MTE2M30._c1iWRXeuaSLQc1eVUgk-fJEsn3E5FDdbXHekRB9Ot8")
+db=create_client("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
